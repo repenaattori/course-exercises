@@ -16,7 +16,7 @@ const products = [
 export default function App() {
 
   const [productId, setProductId] = useState(products[0].value);
-  const [quantity, setQuantity] = useState(0);
+  const [quantity, setQuantity] = useState(1);
 
   const selectedProduct = products.find(p => p.value == productId);
 
